@@ -1,0 +1,169 @@
+
+@media (max-width: 1135px) {
+  .food img {
+      padding-right: 15px;
+    }
+
+  .partners img {
+    margin: 0 30px;
+  }
+}
+
+@media (max-width: 990px) {
+  .about-food {
+    text-align: center;
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+
+  .about p,
+  .food p {
+    font-size: 24px;
+  }
+
+  .food img {
+      padding-right: 25px;
+    }
+
+  .quote {
+    font-size: 30px;
+    padding: 70px 0;
+  }
+
+  .partners img {
+    margin: 0 15px;
+  }
+}
+
+@media (max-width: 825px) {
+  .about {
+    padding-right: 25px;
+    padding-left: 25px;
+  }
+
+  .partners p {
+    padding-bottom: 40px;
+  }
+
+  .partners img {
+    max-width: 100px;
+  }
+
+  .partners img:last-child {
+    max-width: 200px;
+  }
+
+  .partners {
+    padding-bottom: 50px;
+  }
+}
+
+  @media (max-width: 770px) {
+    .main-banner h2 {
+      font-size: 70px;
+    }
+
+    .food {
+      flex-direction: column-reverse;
+    }
+
+    .quote,
+    .about-food {
+      width: 100%;
+      padding: 40px 25px;
+    }
+
+    .food p {
+      max-width: 700px;
+    }
+
+    .food img {
+      width: 100%;
+      padding: 0;
+    }
+
+    .contact {
+      flex-direction: column;
+    }
+
+    .find-us,
+    .hours {
+      padding: 30px;
+      width: 100%;
+    }
+
+    .find-us p,
+    .hours p {
+      max-width: 270px;
+    }
+
+    .contact img {
+      padding: 0;
+      width: 50%;
+    }
+  }
+
+@media (max-width: 700px) {
+  .main-banner h2 {
+    font-size: 60px;
+   }
+
+   .images img {
+      width: 100%;
+    }
+
+  .images,
+  .partners-logos {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .partners img {
+    margin: 15px 0;
+  }
+}
+
+@media (max-width: 550px) {
+  body {
+    font-size: 16px;
+  }
+
+  header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  nav {
+    margin-top: 15px;
+  }
+
+  .main-banner {
+    padding: 125px 0 125px 0;
+  }
+
+  .main-banner h2 {
+    font-size: 50px;
+   }
+
+  .contact img {
+    width: 200px;
+  }
+}
+
+@media (max-width: 415px) {
+  nav a {
+    font-size: 14px;
+  }
+
+  .main-banner h2,
+  .about h3,
+  blockquote {
+    font-size: 30px;
+    max-width: 270px;
+   }
+
+  .about p,
+  .about-food p {
+    font-size: 18px;
+  }
+}
